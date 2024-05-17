@@ -11,7 +11,7 @@ imports: [HousingLocationComponent, CommonModule],
 template: `
 <section>
 <div class="form-group">
-<p>You select a field to search for properties</p>
+<h3><p>You select a field to search for properties</p></h3>
 <select #feature (change)="onSelected()">
 <option default>Pick a field</option>
 <option>City</option>
